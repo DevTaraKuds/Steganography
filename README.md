@@ -4,9 +4,9 @@ A technique of hiding information in plain sight and explore how it works in tod
 
 to merge two files
 
-copy /b PC.avif + info.txt Dell.avif
+`copy /b PC.avif + info.txt Dell.avif`
 
 to check the hash
-certutil -hashfile PC.avif
+`certutil -hashfile PC.avif`
 
-certutil -hashfile Dell.avif
+`certutil -hashfile Dell.avif`
